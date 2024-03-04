@@ -1,0 +1,33 @@
+body{
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+.feed_title{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 33.8%;
+}
+.card{
+    background-color: white;
+    width: 530px;
+    margin: 35px auto;
+}
+.card__tittle{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+.card__tittle p{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #a09b9b;
+}
+.card__image{
+    width: inherit;
+}
+.card__description{
+    padding: 0 8px 20px;
+}
